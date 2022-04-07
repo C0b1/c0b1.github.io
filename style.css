@@ -729,7 +729,18 @@ h1 {
 h4 {
     color: #333333!important;
 }
-
+citation {
+    font-size: 20px;
+    display: inline-block;
+    width: 450px;
+    line-height: 2rem;
+}
+.cit-ita {
+    font-style: italic;
+}
+.cit-light {
+    font-size: 16px;
+}
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
