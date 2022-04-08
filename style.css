@@ -332,9 +332,13 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover {
     background: transparent;
+}
+:focus { 
+    background: transparent !important;
+    border: #364577 dashed 2px;
+    border-radius: 20px;
 }
 
 .navbar-toggle {
@@ -466,13 +470,6 @@ button {
 
 .btn-rd {
     border-radius: 40px;
-}
-
-.btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
 .icon-md {
@@ -729,10 +726,10 @@ h1 {
 h4 {
     color: #333333!important;
 }
-citation {
+.cit {
     font-size: 20px;
     display: inline-block;
-    width: 450px;
+    max-width: 450px;
     line-height: 2rem;
 }
 .cit-ita {
@@ -794,7 +791,8 @@ citation {
     color: #FFFFFF!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
