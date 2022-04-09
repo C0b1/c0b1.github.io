@@ -38,12 +38,12 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="Logo LaPanthère" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" >
+					<span class="sr-only" role="button" aria-pressed="false">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<nav class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
+			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+				<ul class="site-navigation nav navbar-nav" id="menu">
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
@@ -53,7 +53,7 @@
 						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
-			</nav>
+			</div>
 		</nav>
 	</div>
 </header>
@@ -65,7 +65,7 @@
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
 				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo LaPanthère Lyon" />
-				<h1 class="text-center hero-bloc-text tc-white ">
+				<h1 class="text-center hero-bloc-text tc-orange ">
 					Agence La Panthère
 				</h1>
 			</div>
@@ -87,9 +87,9 @@
 				<div class="text-center">
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg" alt="Icon Web Design"></span>
 				</div>
-				<h3 class="mg-md text-center">
+				<h2 class="mg-md text-center">
 					Web design
-				</h3>
+				</h2>
 				<p class="text-center ">
 					Que vous ayez un site web qui a besoin d&rsquo;un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
 				</p>
@@ -98,9 +98,9 @@
 				<div class="text-center">
 					<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg" alt="Icon Stratégie"></span>
 				</div>
-				<h3 class="mg-md text-center">
+				<h2 class="mg-md text-center">
 					&nbsp;Stratégie
-				</h3>
+				</h2>
 				<p class="text-center ">
 					Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
 				</p>
@@ -109,9 +109,9 @@
 				<div class="text-center">
 					<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg" alt="Icon Illustrations"></span>
 				</div>
-				<h3 class="mg-md text-center">
+				<h2 class="mg-md text-center">
 					Illustrations
-				</h3>
+				</h2>
 				<p class="text-center ">
 					Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.
 				</p>
@@ -136,7 +136,7 @@
 				<h2 class="mg-md text-center tc-white">
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 				</h2>
-				<p class="text-center white">
+				<p class="text-center tc-white">
 					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br>
 				</p>
 			</div>
@@ -222,28 +222,28 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<p class="text-center tc-black">
 					Agence La Panthère - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="www.twitter.com/lapanthere/"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="www.twitter.com/lapanthere/" title="Lien vers Twitter"><span class="fa fa-twitter icon-md" alt="icon Twitter"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="www.facebook.com/lapanthere/"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="www.facebook.com/lapanthere/" title="Lien vers Facebook"><span class="fa fa-facebook icon-md" alt="icon Facebook"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="www.dribbble.com/lapanthere/"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="www.dribbble.com/lapanthere/" title="Lien vers Dribbble"><span class="fa fa-dribbble icon-md" alt="icon Dribbble"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="www.instagram.com/lapanthere/"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="www.instagram.com/lapanthere/" title="Lien vers Instagram"><span class="fa fa-instagram icon-md" alt="icon Instagram"></span></a>
 						</div>
 					</div>
 				</div>
